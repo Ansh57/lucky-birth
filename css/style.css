@@ -1,0 +1,51 @@
+body{
+    
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#poutput{
+    color: green;
+}
+#noutput{
+    color: red;
+}
+.container{
+    
+    background-color: aqua;
+    border-radius: 1rem;
+    margin: 20px 40%;
+    padding: 40px;
+}
+#dob{
+    background-color: rgb(197, 197, 219);
+    border-radius: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    padding: 10px;
+}
+#lucky-number{
+    background-color: rgb(197, 197, 219);
+    border-radius: 1rem;
+    margin: 30px;
+    padding: 10px;
+   
+}
+#check-btn{
+    background-color: rgb(144, 168, 204);
+    border:blue;
+    border-radius: 0.5rem;
+   font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 50px;
+    padding: 7px 32px;
+}
+@media (max-width:1152px){
+    .container{
+    
+        background-color: aqua;
+        border-radius: 1rem;
+        margin: auto;
+        padding: 60px;
+    }
+}
