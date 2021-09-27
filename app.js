@@ -2,7 +2,7 @@ var date=document.querySelector("#dob");
 var luckyNumber=document.querySelector("#lucky-number");
 var checkBtn=document.querySelector("#check-btn");
 var showOutput=document.querySelector("#poutput");
-var output=document.querySelector("#noutput");
+
 
 
 checkBtn.addEventListener('click',userInput);
@@ -34,7 +34,7 @@ if((sum%luckyNumber===0))
 
 }
 else{
-    output.innerHTML="Oops! try once More!";
+    showOutput.innerHTML="Oops! try once More!";
 }
 }
 
