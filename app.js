@@ -33,6 +33,9 @@ if((sum%luckyNumber===0))
     showOutput.innerHTML="Wow, Your are Lucky Man";
 
 }
+   else if(luckyNumber<0){
+      showOutput.innerHTML="Ohho!, Please try with Positive Number"
+   }
 else{
     showOutput.innerHTML="Oops! try once More!";
 }
